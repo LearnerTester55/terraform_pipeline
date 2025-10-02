@@ -8,7 +8,7 @@
 # }
 
 # New EC2 instance
-resource "aws_instance" "demo3_nochange build8" {
+resource "aws_instance" "demo3_nochange_build8_new" {
   ami           = "ami-052064a798f08f0d3"
   instance_type = "t2.micro"
 
